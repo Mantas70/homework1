@@ -80,35 +80,29 @@ img{
     width: 200px;
     height: 200px;
 }
-.icon1{
+.container-fluid .icon1 {
     display: grid;
     position: absolute;
-    width: 60px;
-    height: 40px;
+    left: 0;
+    font-size: 30px;
+    top: 30px;
     background-color: #fff;
-    margin-top: 20px;
+    height: 40px;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
     border-radius: 3px;
 }
-.icon2{
+.container-fluid .icon2{
     display: grid;
     position: absolute;
-    width: 60px;
-    height: 40px;
-    left: 96%;
-    margin-left: 15px;
-    border-radius: 1px;
-    margin-top: 20px;
+    right: 0;
+    font-size: 30px;
+    top: 30px;
     background-color: #a52834;
-}
-.icon1 i{
-    display: grid;
-    font-size: 25px;
+    height: 40px;
+    width: 60px;
     align-items: center;
     justify-content: center;
-}
-.icon2 i{
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    font-size: 25px;
+    border-radius: 1px;
 }
